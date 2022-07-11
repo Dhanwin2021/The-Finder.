@@ -38,14 +38,14 @@ function draw(){
             }else{
                 document.getElementById("found").innerHTML="OBJECT IS NOT FOUND!!!";
                 song.play();
-                //song.Volume(1);
+                song.Volume(1);
             }
 
         }
         if(objects.length==0){
             document.getElementById("found").innerHTML="";
             song.play();
-            //song.Volume(1);
+            song.Volume(1);
         }
     }
 }
